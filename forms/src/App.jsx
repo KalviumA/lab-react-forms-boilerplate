@@ -31,7 +31,7 @@ function App() {
     <>
       <h1>Form</h1>
       <form onSubmit={handleSubmit}>
-        {submitted && verified ? <div>Registration Succefull</div> : null}
+        {submitted && verified ? <div>Registration Succefull!</div> : null}
 
         <input
           type="text"
